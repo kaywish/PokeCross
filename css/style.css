@@ -1,17 +1,40 @@
+
+body{
+    background: url(../grass.png) 
+}
+
+
+.gameboy{
+    position: absolute;
+    height: 600px;
+    width: 800px;
+    display: flex;
+    right: 250px;
+    
+}
+
+
 .cell{
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
     border: 2px solid;
     box-shadow: 0 0 0 2px;
     line-height: 75px;
     font-size: 50px;
     cursor: pointer;
-    
+}
+
+.cell-won {
+    background-color: green;
 }
 
 .gameContainer{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
+    z-index: 1;
+ 
+    
+    
 
 }
 .board{
@@ -19,12 +42,14 @@
     grid-template-columns: repeat(3,auto);
     width: 225px;
     margin: auto;
-
+    margin-top: 45px;
+    margin-left: 439px;
+    
+    
+   
+   
 }
 
 #player1{
-    background: url(/pickachu.png) no-repeat center;
-    
-    
-    
+    background: url(../pickachu.png) no-repeat center
 }

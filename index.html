@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
 </head>
+
 <body>
+    <!-- <img class="gameboy" src="/PokeCross/Gameboy.png" alt=""> -->
+    <!-- <img class="grass" src="/PokeCross/grass.png"> -->
     <div class ="gameContainer">
-      <h1 class ="title"> Tic Tac Toe</h1>
+      <h1 class ="title"> PokeCross</h1>
+
       <div class ="board">
-          <div class="cell" id="playerx"> </div>
-          <div class="cell" id="2"></div>
-          <div class="cell" id="3"></div>
-          <div class="cell" id ="4"></div>
-          <div class="cell" id="5"></div>
-          <div class="cell" id="6"></div>
-          <div class="cell" id="7"></div>
-          <div class="cell" id="8"></div>
-          <div class="cell"id ="8"></div>
-</div>
-<h2 class="status"> </h2>
-<button id = "restart">Restart</button>
-</div>
+        <div class="cell" id="choice1" data-index="0" onclick="gameButtonClicked(0, 'choice1');"></div>
+        <div class="cell" id="choice2" data-index="1" onclick="gameButtonClicked(1, 'choice2');"></div>
+        <div class="cell" id="choice3" data-index="2" onclick="gameButtonClicked(2, 'choice3');"></div>
+        <div class="cell" id ="choice4" data-index="3" onclick="gameButtonClicked(3, 'choice4');"></div>
+        <div class="cell" id="choice5" data-index="4" onclick="gameButtonClicked(4, 'choice5');"></div>
+        <div class="cell" id="choice6" data-index="5" onclick="gameButtonClicked(5, 'choice6');"></div>
+        <div class="cell" id="choice7" data-index="6" onclick="gameButtonClicked(6, 'choice7');"></div>
+        <div class="cell" id="choice8" data-index="7" onclick="gameButtonClicked(7, 'choice8');"></div>
+        <div class="cell" id ="choice9" data-index="8" onclick="gameButtonClicked(8, 'choice9');"></div>
+      </div>
+
+      <h2 class="status"> </h2>
+      <button id="restart" onclick="restartGame()">Restart</button>
+    </div>
   
-<script src="app/app.js"> </script>
+    <script src="./app/app.js"> </script>
 </body>
 </html>
