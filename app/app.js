@@ -1,5 +1,7 @@
-alert("Welcome to Tic-Tac-Toe ")
+function rules(){
 alert(" The rules are simple, first to get 3 in a row wins!")
+}
+
 
 // Winning conditions
 const winCon = [

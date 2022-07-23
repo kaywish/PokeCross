@@ -62,6 +62,15 @@ body{
 }
 
 
-.tic{
-    
+.buttons{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 18px;
+background: #1E90FF;
+text-transform: uppercase;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 0 10px;
+
+
 }
