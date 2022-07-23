@@ -13,15 +13,6 @@ body{
 }
 
 
-.gameboy{
-    position: absolute;
-    height: 600px;
-    width: 800px;
-    display: flex;
-    right: 250px;
-    
-}
-
 
 .cell{
     width: 120px;
@@ -35,9 +26,7 @@ body{
     font-weight: bold;
 }
 
-.cell-won {
-    background-color: green;
-}
+
 
 .gameContainer{
     font-family:'Courier New', Courier, monospace;
@@ -56,12 +45,6 @@ body{
     margin-left: 439px;
     
     
-   
-   
-}
-
-#player1{
-    background: url(../pickachu.png) no-repeat center
 }
 
 
