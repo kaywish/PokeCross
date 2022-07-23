@@ -1,6 +1,14 @@
 
 body{
-    background: url(../grass.png) 
+    background: url(/newbackground.jpeg);
+}
+
+.title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;  white;
+
+    
 }
 
 
@@ -32,7 +40,6 @@ body{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     z-index: 1;
- 
     
     
 
@@ -52,4 +59,9 @@ body{
 
 #player1{
     background: url(../pickachu.png) no-repeat center
+}
+
+
+.tic{
+    
 }

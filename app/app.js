@@ -1,3 +1,6 @@
+alert("Welcome to Tic-Tac-Toe ")
+alert(" The rules are simple, first to get 3 in a row wins!")
+
 // Winning conditions
 const winCon = [
   [0,1,2],
@@ -22,7 +25,7 @@ function restartGame() {
   currentPlayerIndex = 0;
   gameComplete = false;
 
-  // update dom elements (css + x and o)
+  // update dom elements (x and o)
   clearGameCell("choice1");
   clearGameCell("choice2");
   clearGameCell("choice3");
@@ -105,9 +108,9 @@ function evaluateGameComplete() {
 
     alert("Player " + players[result.winningPlayerIndex] + " has won the game!");
 
-    document.querySelector('[data-index="' + result.winningElements[0].toString() + '"]').classList.add('cell-won');
-    document.querySelector('[data-index="' + result.winningElements[1].toString() + '"]').classList.add('cell-won');
-    document.querySelector('[data-index="' + result.winningElements[2].toString() + '"]').classList.add('cell-won');
+    document.querySelector(  result.winningElements[0].toString() + '"]').classList.add('cell-won');
+    document.querySelector( result.winningElements[1].toString() + '"]').classList.add('cell-won');
+    document.querySelector( result.winningElements[2].toString() + '"]').classList.add('cell-won');
 
     return;
   }
