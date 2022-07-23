@@ -1,5 +1,6 @@
 function rules(){
-alert(" The rules are simple, first to get 3 in a row wins!")
+alert(" The rules are simple, first to get 3 in a row wins! " +
+"Player X goes first")
 }
 
 
