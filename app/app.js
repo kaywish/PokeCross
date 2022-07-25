@@ -38,6 +38,11 @@ function restartGame() {
   clearGameCell("choice7");
   clearGameCell("choice8");
   clearGameCell("choice9");
+ 
+  const player = document.querySelector(".playerx")
+  player.innerHTML="Who's Turn: Player X"
+
+
 }
 
 function clearGameCell(elementId) {
@@ -100,7 +105,20 @@ function getCurrentPlayerCharacter() {
 
 function switchToNextPlayer() {
   currentPlayerIndex = currentPlayerIndex == 0 ? 1 : 0;
+  const player = document.querySelector(".playerx")
+if (currentPlayerIndex== 1) { player.innerHTML="Who's Turn: Player O"
+
 }
+ if (currentPlayerIndex == 0) {player.innerHTML="Who's Turn: Player X"
+   
+ }
+  
+}
+
+
+ 
+  
+
 
 function evaluateGameComplete() {
   // Check if one player has won the game
@@ -109,6 +127,7 @@ function evaluateGameComplete() {
   if (result) {
     gameComplete = true;
 
+
     alert("Player " + players[result.winningPlayerIndex] + " has won the game!");
 
     document.querySelector(  result.winningElements[0].toString() + '"]').classList.add('cell-won');
@@ -116,6 +135,8 @@ function evaluateGameComplete() {
     document.querySelector( result.winningElements[2].toString() + '"]').classList.add('cell-won');
 
     return;
+
+
   }
 
 

@@ -31,8 +31,7 @@
 .gameContainer{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    z-index: 1;
-    
+ 
     
 
 }
@@ -43,7 +42,7 @@
     margin: auto;
     margin-top: 45px;
     margin-left: 439px;
-    
+   
     
 }
 
@@ -60,3 +59,32 @@ box-shadow: 0 0 10px;
 
 
 }
+
+.score{
+display: flex;
+justify-content: center;
+
+}
+
+.playerx{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    box-shadow: 0 0 10px;
+    font-weight: lighter;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
