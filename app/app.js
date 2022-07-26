@@ -24,26 +24,14 @@ let gameComplete = false;
 
 
 
-
-
-
-// CHOOSE PLAYER HERE!!!!!!!!!!!!!!!!!!!!
+// Choose player
 currentPlayerIndex = currentPlayerIndex == 0 ? 1 : 0;
 prompt("Who wants to go first?", "X or O" )
-if ("X") {currentPlayerIndex == 1? 0:1
+if ("X") {currentPlayerIndex == 1
 }
 
 if ("O"){currentPlayerIndex==0;
 }
-//////////////////////////////////////
-
-
-
-
-
-
-
-
 
 
 function restartGame() {
