@@ -22,6 +22,30 @@ let elementsPlayed = [-1, -1, -1, -1, -1, -1, -1, -1, -1];
 let currentPlayerIndex = 0;
 let gameComplete = false;
 
+
+
+
+
+
+// CHOOSE PLAYER HERE!!!!!!!!!!!!!!!!!!!!
+currentPlayerIndex = currentPlayerIndex == 0 ? 1 : 0;
+prompt("Who wants to go first?", "X or O" )
+if ("X") {currentPlayerIndex == 1? 0:1
+}
+
+if ("O"){currentPlayerIndex==0;
+}
+//////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
 function restartGame() {
   // Clear game variables
   elementsPlayed = [-1, -1, -1, -1, -1, -1, -1, -1, -1];
@@ -39,9 +63,15 @@ function restartGame() {
   clearGameCell("choice8");
   clearGameCell("choice9");
  
-  const player = document.querySelector(".playerx")
-  player.innerHTML="Who's Turn: Player X"
-
+  // const player = document.querySelector(".playerx")
+  // player.innerHTML="Who's Turn: Player X"
+//   currentPlayerIndex = currentPlayerIndex == 0 ? 1 : 0;
+//   prompt("Who wants to go first?", "X or O" )
+// if ("O") { currentPlayerIndex == 0;
+//   }
+// if ("X") { currentPlayerIndex == 1;
+  
+// }
 
 }
 
